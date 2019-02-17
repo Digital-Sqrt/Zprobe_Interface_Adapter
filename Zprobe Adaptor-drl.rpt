@@ -1,0 +1,26 @@
+Drill report for C:/Users/Digital-Sqrt/Documents/GitHub/Zprobe Adaptor/Zprobe Adaptor/Zprobe Adaptor.kicad_pcb
+Created on 2/7/2019 10:11:40 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Zprobe Adaptor-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.70mm  0.028"  (4 holes)
+    T2  0.80mm  0.031"  (4 holes)
+    T3  0.90mm  0.035"  (2 holes)
+    T4  1.32mm  0.052"  (7 holes)
+
+    Total plated holes count 17
+
+
+Drill file 'Zprobe Adaptor-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.20mm  0.126"  (4 holes)
+
+    Total unplated holes count 4
