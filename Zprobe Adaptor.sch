@@ -113,14 +113,14 @@ L Device:LED_Small_ALT D1
 U 1 1 5C5BD40D
 P 5125 3975
 F 0 "D1" V 5125 3907 50  0000 R CNN
-F 1 "LED_Small_ALT" V 5080 3907 50  0001 R CNN
+F 1 "LED" V 5080 3907 50  0001 R CNN
 F 2 "LEDs:LED_D3.0mm" V 5125 3975 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/83006/tlhg440.pdf" V 5125 3975 50  0001 C CNN
-F 4 "TLHR4400-MS12Z" H 5125 3975 50  0001 C CNN "Manufacturer Number"
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP937GGD.pdf" V 5125 3975 50  0001 C CNN
+F 4 "WP937GGD" H 5125 3975 50  0001 C CNN "Manufacturer Number"
 F 5 "Digi-Key" H 5125 3975 50  0001 C CNN "Supplier"
-F 6 "TLHR4400-MS12ZTB-ND" H 5125 3975 50  0001 C CNN "Supplier Part No"
-F 7 "https://www.digikey.com/products/en?keywords=TLHR4400-MS12ZTB-ND" H 5125 3975 50  0001 C CNN "Supplier Link"
-F 8 "Vishay Semiconductor Opto Division" H 5125 3975 50  0001 C CNN "Manufacturer"
+F 6 "754-2199-ND" H 5125 3975 50  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/products/en?keywords=754-2199-ND" H 5125 3975 50  0001 C CNN "Supplier Link"
+F 8 "Kingbright" H 5125 3975 50  0001 C CNN "Manufacturer"
 	1    5125 3975
 	0    -1   -1   0   
 $EndComp
