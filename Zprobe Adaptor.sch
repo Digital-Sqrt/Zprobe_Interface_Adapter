@@ -33,17 +33,17 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x03 J3
 U 1 1 5C5BBB41
-P 4575 4550
-F 0 "J3" H 4495 4775 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 4495 4776 50  0001 C CNN
-F 2 "MyLib:3pin Screw Terminal 5mm" H 4575 4550 50  0001 C CNN
-F 3 "https://katalog.we-online.de/em/datasheet/691137710003.pdf" H 4575 4550 50  0001 C CNN
-F 4 "691137710003" H 4575 4550 50  0001 C CNN "Manufacturer Number"
-F 5 "Digi-Key" H 4575 4550 50  0001 C CNN "Supplier"
-F 6 "732-10956-ND" H 4575 4550 50  0001 C CNN "Supplier Part No"
-F 7 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/691137710003/732-10956-ND/6644052" H 4575 4550 50  0001 C CNN "Supplier Link"
-F 8 "Wurth Electronics Inc." H 4575 4550 50  0001 C CNN "Manufacturer"
-	1    4575 4550
+P 4575 4750
+F 0 "J3" H 4495 4975 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 4495 4976 50  0001 C CNN
+F 2 "MyLib:3pin Screw Terminal 5mm" H 4575 4750 50  0001 C CNN
+F 3 "https://katalog.we-online.de/em/datasheet/691137710003.pdf" H 4575 4750 50  0001 C CNN
+F 4 "691137710003" H 4575 4750 50  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 4575 4750 50  0001 C CNN "Supplier"
+F 6 "732-10956-ND" H 4575 4750 50  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/691137710003/732-10956-ND/6644052" H 4575 4750 50  0001 C CNN "Supplier Link"
+F 8 "Wurth Electronics Inc." H 4575 4750 50  0001 C CNN "Manufacturer"
+	1    4575 4750
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -151,40 +151,33 @@ Wire Wire Line
 $Comp
 L power:Earth #PWR01
 U 1 1 5C5BDDBB
-P 4775 4725
-F 0 "#PWR01" H 4775 4475 50  0001 C CNN
-F 1 "Earth" H 4775 4575 50  0001 C CNN
-F 2 "" H 4775 4725 50  0001 C CNN
-F 3 "~" H 4775 4725 50  0001 C CNN
-	1    4775 4725
+P 4775 4925
+F 0 "#PWR01" H 4775 4675 50  0001 C CNN
+F 1 "Earth" H 4775 4775 50  0001 C CNN
+F 2 "" H 4775 4925 50  0001 C CNN
+F 3 "~" H 4775 4925 50  0001 C CNN
+	1    4775 4925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4775 4650 4775 4725
-Wire Wire Line
-	5125 4475 5125 4550
-Wire Wire Line
-	5125 4550 5675 4550
-Wire Wire Line
-	5675 4550 5675 4475
+	4775 4850 4775 4925
 $Comp
 L power:VCC #PWR04
 U 1 1 5C5BE288
-P 4825 4425
-F 0 "#PWR04" H 4825 4275 50  0001 C CNN
-F 1 "VCC" H 4842 4598 50  0000 C CNN
-F 2 "" H 4825 4425 50  0001 C CNN
-F 3 "" H 4825 4425 50  0001 C CNN
-	1    4825 4425
+P 4825 4625
+F 0 "#PWR04" H 4825 4475 50  0001 C CNN
+F 1 "VCC" H 4842 4798 50  0000 C CNN
+F 2 "" H 4825 4625 50  0001 C CNN
+F 3 "" H 4825 4625 50  0001 C CNN
+	1    4825 4625
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4775 4450 4825 4450
+	4775 4650 4825 4650
 Wire Wire Line
-	4825 4450 4825 4425
-Connection ~ 5125 4550
+	4825 4650 4825 4625
 Wire Wire Line
-	4775 4550 5125 4550
+	4775 4750 5125 4750
 Wire Wire Line
 	4775 3400 6275 3400
 Wire Wire Line
@@ -211,15 +204,15 @@ Text Notes 4500 3925 2    50   ~ 0
 +
 Text Notes 4500 4050 2    50   ~ 0
 -
-Text Notes 4425 4500 0    50   ~ 0
-+
 Text Notes 4425 4700 0    50   ~ 0
++
+Text Notes 4425 4900 0    50   ~ 0
 -
-Text Notes 4425 4600 0    50   ~ 0
+Text Notes 4425 4800 0    50   ~ 0
 S
-Text Notes 3775 4425 0    50   ~ 0
+Text Notes 3775 4625 0    50   ~ 0
 Z-Probe Input
-Text Notes 3775 4650 0    50   ~ 0
+Text Notes 3775 4850 0    50   ~ 0
 Connect your \nprobe here
 $Comp
 L Connector:Screw_Terminal_01x02 J2
@@ -253,4 +246,11 @@ F 8 "Stackpole Electronics Inc." H 5675 4375 50  0001 C CNN "Manufacturer"
 	1    5675 4375
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5125 4750 5675 4750
+Connection ~ 5125 4750
+Wire Wire Line
+	5125 4475 5125 4750
+Wire Wire Line
+	5675 4475 5675 4750
 $EndSCHEMATC
